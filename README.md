@@ -19,6 +19,20 @@ I have constructed a character-level LSTM with PyTorch. The network will train c
 </ul>
 <p> <h3> This is how sequence batching works: </h3> </p>
 <img src="https://raw.githubusercontent.com/geekquad/deep-learning-v2-pytorch/master/recurrent-neural-networks/char-rnn/assets/sequence_batching%401x.png">
+<p> <h2> Hyperparameters: </h2> </p>
+<p> Here are the Hyperparameters for the network: </p>
+<h4> In defining the Model: </h4>
+<ul>
+  <li> n_hidden - The number of units in the hidden layers. </li>
+  <li> n_layers - Number of hidden LSTM layers to use. </li>
+</ul>
+<h4> In training the Model: </h4>
+<ul>
+  <li> batch_size - Number of sequences running through the network in one pass. </li>
+  <li> seq_length - Number of characters in the sequence the network is trained on. Larger is better typically, the network will learn more long range dependencies. But it takes longer to train. 100 is typically a good number here.. </li>
+  <li> lr - Learning rate for training. </li>
+</ul>
+
 <p> <h2> Steps Followed: </h2> </p>
 <ul>
   <li> Load in text data </li>
