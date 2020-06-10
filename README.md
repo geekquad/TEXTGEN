@@ -9,5 +9,13 @@ I have constructed a character-level LSTM with PyTorch. The network will train c
 <p> <h2> LSTM: </h3> </p>
 <P> An LSTM has a similar control flow as a recurrent neural network. It processes data passing on information as it propagates forward. The differences are the operations within the LSTM's cells. These operations are used to allow the LSTM to keep or forget information. </p>
 <p> <h3> Below is an Image to show how LSTM works: </h3> </p>
-<p> <img src="https://raw.githubusercontent.com/geekquad/deep-learning-v2-pytorch/master/recurrent-neural-networks/char-rnn/assets/charRNN.png" width="800" height="600">
-  
+<p> <img src="https://raw.githubusercontent.com/geekquad/deep-learning-v2-pytorch/master/recurrent-neural-networks/char-rnn/assets/charRNN.png" width="800" height="600"> </p>
+<p> <h2> Sequence Batching: </h2> </p>
+<p> To train on this data, I have created mini-batches for training. Remember out batches should be multiple sequences of some desired number of sequence steps. </p>
+<ul>
+  <li>The first thing is we need to discard some of the text so we only have completely full mini-batches. </li>
+  <li>After that, we need to split arr into N batches. </li>
+  <li>Now when we have this array, we can iterate through it to get our mini-batches. </li> 
+</ul>
+<p> <h3> This is how sequence batching works: </h3> </p>
+<img src="https://raw.githubusercontent.com/geekquad/deep-learning-v2-pytorch/master/recurrent-neural-networks/char-rnn/assets/sequence_batching%401x.png">
