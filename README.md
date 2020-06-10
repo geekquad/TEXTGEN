@@ -19,8 +19,9 @@ I have constructed a character-level LSTM with PyTorch. The network will train c
 </ul>
 <p> <h3> This is how sequence batching works: </h3> </p>
 <img src="https://raw.githubusercontent.com/geekquad/deep-learning-v2-pytorch/master/recurrent-neural-networks/char-rnn/assets/sequence_batching%401x.png">
+<p> <h2> Sample Data: </h2> </p>
 
-## Input:
+#### Input:
 ```
 text[:500]
 ```
