@@ -27,5 +27,9 @@ text[:500]
 
 ## Output:
 ```
-Chapter 1\n\n\nHappy families are all alike; every unhappy family is unhappy in its own\nway.\n\nEverything was in confusion in the Oblonskys' house. The wife had\ndiscovered that the husband was carrying on an intrigue with a French\ngirl, who had been a governess in their family, and she had announced to\nher husband that she could not go on living in the same house with him.\nThis position of affairs had now lasted three days, and not only the\nhusband and wife themselves, but all the members of their f
+Chapter 1\n\n\nHappy families are all alike; every unhappy family is unhappy in its own\nway.
+\n\nEverything was in confusion in the Oblonskys' house. The wife had\ndiscovered that the husband was carrying on an intrigue with a
+French\ngirl, who had been a governess in their family, and she had announced to\nher husband that she could not go on living in the
+same house with him.\nThis position of affairs had now lasted three days, and not only the\nhusband and wife themselves, but all the
+members of their f
 ```
