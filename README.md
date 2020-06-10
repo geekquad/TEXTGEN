@@ -25,7 +25,7 @@ I have constructed a character-level LSTM with PyTorch. The network will train c
 text[:500]
 ```
 
-## Output:
+#### Output:
 ```
 Chapter 1\n\n\nHappy families are all alike; every unhappy family is unhappy in its own\nway.
 \n\nEverything was in confusion in the Oblonskys' house. The wife had\ndiscovered that the husband was carrying on an intrigue with a
