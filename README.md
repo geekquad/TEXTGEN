@@ -6,3 +6,8 @@ I have constructed a character-level LSTM with PyTorch. The network will train c
 
 <p> Concretely, we will encode each character into a vector using top_k encoding (i.e. all zero except for a single one at the index of the character in the vocabulary), and feed them into the RNN one at a time with the step function. We will then observe a sequence of 4-dimensional output vectors (one dimension per character), which we interpret as the confidence the RNN currently assigns to each character coming next in the sequence. Here’s a diagram: </p>
 <p> <img src="https://raw.githubusercontent.com/geekquad/deep-learning-v2-pytorch/master/recurrent-neural-networks/char-rnn/assets/charseq.jpeg" width="800" height="600"> </p>
+<p> <h2> LSTM: </h3> </p>
+<P> An LSTM has a similar control flow as a recurrent neural network. It processes data passing on information as it propagates forward. The differences are the operations within the LSTM's cells. These operations are used to allow the LSTM to keep or forget information. </p>
+<p> <h3> Below is an Image to show how LSTM works: </h3> </p>
+<p> <img src="https://raw.githubusercontent.com/geekquad/deep-learning-v2-pytorch/master/recurrent-neural-networks/char-rnn/assets/charRNN.png" width="800" height="600">
+  
