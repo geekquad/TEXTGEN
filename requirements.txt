@@ -1,0 +1,16 @@
+matplotlib==3.2.2
+matplotlib-venn==0.11.5
+sklearn==0.0
+sklearn-pandas==1.8.0
+scikit-image==0.16.2
+numpy==1.18.5
+pandas==1.0.5
+cv2==4.1.2
+opencv-contrib-python==4.1.2.30
+opencv-python==4.1.2.30
+image==1.5.32
+imageio==2.4.1
+imagesize==1.2.0
+imutils==0.5.3
+python-utils==2.4.0
+rasterio==1.1.5
